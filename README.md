@@ -16,4 +16,5 @@ Wiki по библиотекам для разработки на Python/Django
 | django-embed-video | Django-приложение для удобного встраивания видео с YouTube и Vimeo и музыки из SoundCloud (можно писать свои бекенды, например, для ВК) | https://django-embed-video.readthedocs.io/ |
 | Dramatiq | Аналог Celery | https://dramatiq.io/ |
 | graphene-django | Интеграция GraphQL   | https://github.com/graphql-python/graphene-django |
-|django-image-cropping  | приложение для обрезки загруженных изображений через бекенд администратора Django | https://pypi.org/project/django-image-cropping/ |
+| django-image-cropping  | Приложение для обрезки загруженных изображений через бекенд администратора Django | https://pypi.org/project/django-image-cropping/ |
+| django-admin-rangefilter  | Django-приложение, добавляющее в пользовательский интерфейс администратора фильтр по диапазону дат и числовому диапазону | https://pypi.org/project/django-admin-rangefilter/ |

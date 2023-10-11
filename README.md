@@ -19,3 +19,5 @@ Wiki по библиотекам для разработки на Python/Django
 | django-image-cropping  | Приложение для обрезки загруженных изображений через бекенд администратора Django | https://pypi.org/project/django-image-cropping/ |
 | django-admin-rangefilter  | Django-приложение, добавляющее в пользовательский интерфейс администратора фильтр по диапазону дат и числовому диапазону | https://pypi.org/project/django-admin-rangefilter/ |
 | django-two-factor-auth  | Двухфакторная аутентификация для Django. | https://github.com/jazzband/django-two-factor-auth |
+|django-autoslug | Автоматически заполняет слаг | https://github.com/justinmayer/django-autoslug |
+

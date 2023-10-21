@@ -1,23 +1,59 @@
-# python-django-modules-wiki
-Wiki по библиотекам для разработки на Python/Django
+# Django Modules Wiki
 
-| Название | Описание | Ссылка |
-|----------|----------|----------|
-| django-admin-sortable2    | Пакет drag-and-drop упорядочивания для сортировки объектов в представлениях list- и detail интерфейса администратора Django.  | https://django-admin-sortable2.readthedocs.io/ |
-| django-ckeditor | RichText-редактор   | https://django-ckeditor.readthedocs.io/ |
-| django-model-utils | Миксины и утилиты для работы с моделями Django (получение наследников, джоины и тд)  |  https://django-model-utils.readthedocs.io/ |
-| django-modeltranslation | Перевод динамического контента на несколько языков |  https://django-modeltranslation.readthedocs.io/ |
-| django-nested-admin | Позволяет вложить инлайны администратора (то есть определить инлайны на классах InlineModelAdmin). Позволяет сортировать эти инлайны с помощью drag-and-drop  | https://django-nested-admin.readthedocs.io/ |
-| django-phonenumber-field | Библиотека для работы с телефонными номерами  | https://github.com/stefanfoulis/django-phonenumber-field |
-| django-solo | Для создания singleton-моделей |  https://github.com/lazybird/django-solo |
-| django-filter |  Позволяет пользователям отфильтровать набор запросов на основе полей модели и отображает форму, позволяющую это сделать.  |  https://django-filter.readthedocs.io/en/stable/ |
-| django-select2 | Кастом autocomplete_fields для Django |  https://django-select2.readthedocs.io/ |
-| django-notifications | Работа с уведомлениями | https://github.com/django-notifications/django-notifications |
-| django-embed-video | Django-приложение для удобного встраивания видео с YouTube и Vimeo и музыки из SoundCloud (можно писать свои бекенды, например, для ВК) | https://django-embed-video.readthedocs.io/ |
-| Dramatiq | Аналог Celery | https://dramatiq.io/ |
-| graphene-django | Интеграция GraphQL   | https://github.com/graphql-python/graphene-django |
-| django-image-cropping  | Приложение для обрезки загруженных изображений через бекенд администратора Django | https://pypi.org/project/django-image-cropping/ |
-| django-admin-rangefilter  | Django-приложение, добавляющее в пользовательский интерфейс администратора фильтр по диапазону дат и числовому диапазону | https://pypi.org/project/django-admin-rangefilter/ |
-| django-two-factor-auth  | Двухфакторная аутентификация для Django. | https://github.com/jazzband/django-two-factor-auth |
-|django-autoslug | Автоматически заполняет слаг | https://github.com/justinmayer/django-autoslug |
+---
+ 
+[Django](https://github.com/django/django) — веб-фреймворк Python высокого уровня, который способствует быстрой разработке и чистому, прагматичному дизайну.
 
+## Содержание
+
+---
+
+- [Admin](#admin)
+- [Auth](#auth)
+- [Rest API](#rest-api)
+- [Models](#models)
+- [Другие библиотеки](#другие-библиотеки)
+
+### Admin
+
+- [django-admin-rangefilter](https://github.com/silentsokolov/django-admin-rangefilter/) - Фильтр по диапазону дат и числовому диапазону.
+- [django-admin-sortable2](https://github.com/jrief/django-admin-sortable2/) - Drag-and-drop сортировка для `admin.ModelAdmin`, `admin.StackedInline` или `admin.TabularInline`.
+- [django-image-cropping](https://github.com/jonasundderwolf/django-image-cropping/) - Кроппинг загруженных изображений через панель администратора.
+- [django-nested-admin](https://github.com/theatlantic/django-nested-admin/) - Позволяет вложить `InlineModelAdmin` друг в друга. Drag-and-drop сортировка с помощью `django-admin-sortable2`.
+
+### Auth
+
+- [django-oauth-toolkit](https://github.com/jazzband/django-oauth-toolkit/) - Набор утилит для интеграции OAuth2 в ваш проект.
+- [django-two-factor-auth](https://github.com/jazzband/django-two-factor-auth/) - Двухфакторная аутентификация для Django.
+- [django-rest-knox](https://github.com/James1345/django-rest-knox/) - Аутентификация основанная на `TokenAuthentication`, решающая некоторые проблемы стандратной реализации.
+
+
+### Models
+- [django-solo](https://github.com/lazybird/django-solo/) - Реализация `singleton` паттерна для моделей.
+- [django-model-utils](https://github.com/jazzband/django-model-utils/) - Миксины и утилиты для работы с моделями (различные поля, модели, менеджеры).
+- [django-autoslug](https://github.com/justinmayer/django-autoslug/) - Автоматически заполняет слаг.
+- [django-phonenumber-field](https://github.com/stefanfoulis/django-phonenumber-field/) - Реализация интерфейса для конвертации, валидации и работы с телефонными номерами.
+
+### Rest API
+
+- [django-rest-framework](https://github.com/encode/django-rest-framework/) - Мощный и гибкий набор инструментов для создания веб-API.
+- [django-cors-headers](https://github.com/adamchainz/django-cors-headers) - Позволяет настраивать заголовки CORS для Django приложений.
+- [django-channels](https://github.com/django/channels/) - Протокол WebSockets для Django, позволяющий в режиме реального времени взаимодействовать с клиентами.
+- [django-tastypie](https://github.com/django-tastypie/django-tastypie) - Высокоуровневая библиотека для создание API.
+- [django-ninja](https://github.com/vitalik/django-ninja/) - Быстрая и гибкая библиотека для создания API на основе функций в Django использующая `pydantic`.
+- [drf-spectacular](https://github.com/tfranzel/drf-spectacular/) - Автоматический генерация `Swagger/OpenAPI 3` спецификации.
+- [drf-yasg](https://github.com/axnsan12/drf-yasg) - Автоматический генерация `Swagger/OpenAPI 2` спецификации.
+
+### Другие библиотеки
+
+> В процессе редактирования.
+
+- [dramatiq](https://dramatiq.io/) - Аналог Celery.                                                                                                                      
+- [graphene-django](https://github.com/graphql-python/graphene-django) - Интеграция GraphQL.
+- [django-embed-video](https://django-embed-video.readthedocs.io/) - Django-приложение для удобного встраивания видео с YouTube и Vimeo и музыки из SoundCloud (можно писать свои бекенды, например, для ВК).
+- [django-ckeditor](https://django-ckeditor.readthedocs.io/) - RichText-редактор.
+- [django-notifications](https://github.com/django-notifications/django-notifications) - Работа с уведомлениями.
+- [django-select2](https://django-select2.readthedocs.io/) - Кастом autocomplete_fields для Django.
+- [django-modeltranslation](https://django-modeltranslation.readthedocs.io/) - Перевод динамического контента на несколько языков.
+- [django-filter](https://django-filter.readthedocs.io/en/stable/) - Позволяет пользователям отфильтровать набор запросов на основе полей модели и отображает форму, позволяющую это сделать.
+- [django-cleanup](https://github.com/un1t/django-cleanup) - Автоматически удаляет файлы `FileField`, `ImageField` и подклассов.

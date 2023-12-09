@@ -64,3 +64,5 @@
 - [django-notifications](https://github.com/django-notifications/django-notifications) - Работа с уведомлениями.
 - [django-select2](https://django-select2.readthedocs.io/) - Кастом autocomplete_fields для Django.
 - [django-filter](https://django-filter.readthedocs.io/en/stable/) - Позволяет пользователям отфильтровать набор запросов на основе полей модели и отображает форму, позволяющую это сделать.
+- [django-places](https://github.com/oscarmcm/django-places) - Django-приложение для хранения мест с функцией автозаполнения и связанной с выбранным местом картой.
+- [pytils](https://github.com/last-partizan/pytils) - Pytils это инструменты для работы с русскими строками (транслитерация, числительные словами, русские даты и т.д.).

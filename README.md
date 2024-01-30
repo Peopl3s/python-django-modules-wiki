@@ -21,6 +21,7 @@
 - [django-admin-sortable2](https://github.com/jrief/django-admin-sortable2/) - Drag-and-drop сортировка для `admin.ModelAdmin`, `admin.StackedInline` или `admin.TabularInline`.
 - [django-image-cropping](https://github.com/jonasundderwolf/django-image-cropping/) - Кроппинг загруженных изображений через панель администратора.
 - [django-nested-admin](https://github.com/theatlantic/django-nested-admin/) - Позволяет вложить `InlineModelAdmin` друг в друга. Drag-and-drop сортировка с помощью `django-admin-sortable2`.
+- [django-admin-charts](https://pypi.org/project/django-admin-charts/) - Позволяет создавать графики статистики для `django-admin` и `django-admin-tools`.
 
 ### Auth
 - [django-oauth-toolkit](https://github.com/jazzband/django-oauth-toolkit/) - Набор утилит для интеграции OAuth2 в ваш проект.
@@ -34,6 +35,7 @@
 - [django-phonenumber-field](https://github.com/stefanfoulis/django-phonenumber-field/) - Реализация интерфейса для конвертации, валидации и работы с телефонными номерами.
 - [django-modeltranslation](https://django-modeltranslation.readthedocs.io/) - Перевод динамического контента на несколько языков.
 - [django-simple-history](https://github.com/jazzband/django-simple-history/) - Автоматическое сохранение состояния модели при каждом создании/обновлении/удалении.
+- [django-braces](https://django-braces.readthedocs.io/en/latest/) - Набор миксинов для Django-моделей.
 
 ### Rest API
 - [django-rest-framework](https://github.com/encode/django-rest-framework/) - Мощный и гибкий набор инструментов для создания веб-API.
@@ -66,3 +68,5 @@
 - [django-filter](https://django-filter.readthedocs.io/en/stable/) - Позволяет пользователям отфильтровать набор запросов на основе полей модели и отображает форму, позволяющую это сделать.
 - [django-places](https://github.com/oscarmcm/django-places) - Django-приложение для хранения мест с функцией автозаполнения и связанной с выбранным местом картой.
 - [pytils](https://github.com/last-partizan/pytils) - Pytils это инструменты для работы с русскими строками (транслитерация, числительные словами, русские даты и т.д.).
+- [aldjemy](https://github.com/aldjemy/aldjemy) - Aldjemy интегрирует SQLAlchemy в существующий Django-проект, чтобы помочь вам создавать сложные запросы, которые не под силу Django ORM.
+- [freezegun](https://github.com/spulec/freezegun) - Библиотека, которая позволяет вашим Python-тестам путешествовать во времени, подражая модулю datetime.

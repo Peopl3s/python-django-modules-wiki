@@ -27,7 +27,8 @@
 - [django-oauth-toolkit](https://github.com/jazzband/django-oauth-toolkit/) - Набор утилит для интеграции OAuth2 в ваш проект.
 - [django-two-factor-auth](https://github.com/jazzband/django-two-factor-auth/) - Двухфакторная аутентификация для Django.
 - [django-rest-knox](https://github.com/James1345/django-rest-knox/) - Аутентификация основанная на `TokenAuthentication`, решающая некоторые проблемы стандратной реализации.
-
+- [social-auth-core](https://github.com/python-social-auth/social-core) - Python Social Auth - это простой в настройке механизм аутентификации/регистрации через соцсети с поддержкой нескольких фреймворков и провайдеров аутентификации.
+  
 ### Models
 - [django-solo](https://github.com/lazybird/django-solo/) - Реализация `singleton` паттерна для моделей.
 - [django-model-utils](https://github.com/jazzband/django-model-utils/) - Миксины и утилиты для работы с моделями (различные поля, модели, менеджеры).

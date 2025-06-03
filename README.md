@@ -14,8 +14,8 @@
 - [Models](#models)
 - [WYSIWYG](#wysiwyg)
 - [Utils](#utils)
-- [Другие библиотеки](#другие-библиотеки)
 - [Observability](#Observability)
+- [Другие библиотеки](#другие-библиотеки)
 
 ### Admin
 - [django-admin-rangefilter](https://github.com/silentsokolov/django-admin-rangefilter/) - Фильтр по диапазону дат и числовому диапазону.
@@ -65,7 +65,8 @@
 
 ### Другие библиотеки
 > В процессе редактирования.
-- 
+- [responses](https://pypi.org/project/responses/) - Утилита для моков ответов `requests`.
+- [django-celery-email](https://pypi.org/project/django-celery-email/) - Асинхронный почтовый бэкенд Django для использования с Сelery
 - [dramatiq](https://dramatiq.io/) - Аналог Celery.                                                                                                                      
 - [graphene-django](https://github.com/graphql-python/graphene-django) - Интеграция GraphQL.
 - [django-embed-video](https://django-embed-video.readthedocs.io/) - Django-приложение для удобного встраивания видео с YouTube и Vimeo и музыки из SoundCloud (можно писать свои бекенды, например, для ВК).

@@ -15,6 +15,7 @@
 - [WYSIWYG](#wysiwyg)
 - [Utils](#utils)
 - [Другие библиотеки](#другие-библиотеки)
+- [Observability](#Observability)
 
 ### Admin
 - [django-admin-rangefilter](https://github.com/silentsokolov/django-admin-rangefilter/) - Фильтр по диапазону дат и числовому диапазону.
@@ -58,9 +59,13 @@
 - [django-extensions](https://github.com/django-extensions/django-extensions/) - Набор различных команд, утилит, валидаторов и расширений для Django.
 - [django-cleanup](https://github.com/un1t/django-cleanup) - Автоматически удаляет файлы `FileField`, `ImageField` и подклассов.
 
+### Observability
+- [django-prometheus](https://github.com/korfuri/django-prometheus) - Блиотека для отображения метрик мониторинга, относящихся к внутренним компонентам Django, чтобы их можно было отслеживать с помощью `Prometheus`.
+
 
 ### Другие библиотеки
 > В процессе редактирования.
+- 
 - [dramatiq](https://dramatiq.io/) - Аналог Celery.                                                                                                                      
 - [graphene-django](https://github.com/graphql-python/graphene-django) - Интеграция GraphQL.
 - [django-embed-video](https://django-embed-video.readthedocs.io/) - Django-приложение для удобного встраивания видео с YouTube и Vimeo и музыки из SoundCloud (можно писать свои бекенды, например, для ВК).

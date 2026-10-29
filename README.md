@@ -1,7 +1,7 @@
 # Django Modules Wiki
 
 ---
- 
+
 [Django](https://github.com/django/django) — веб-фреймворк Python высокого уровня, который способствует быстрой разработке и чистому, прагматичному дизайну.
 
 ## Содержание
@@ -18,6 +18,7 @@
 - [Другие библиотеки](#другие-библиотеки)
 
 ### Admin
+
 - [django-admin-rangefilter](https://github.com/silentsokolov/django-admin-rangefilter/) - Фильтр по диапазону дат и числовому диапазону.
 - [django-admin-sortable2](https://github.com/jrief/django-admin-sortable2/) - Drag-and-drop сортировка для `admin.ModelAdmin`, `admin.StackedInline` или `admin.TabularInline`.
 - [django-image-cropping](https://github.com/jonasundderwolf/django-image-cropping/) - Кроппинг загруженных изображений через панель администратора.
@@ -25,12 +26,14 @@
 - [django-admin-charts](https://pypi.org/project/django-admin-charts/) - Позволяет создавать графики статистики для `django-admin` и `django-admin-tools`.
 
 ### Auth
+
 - [django-oauth-toolkit](https://github.com/jazzband/django-oauth-toolkit/) - Набор утилит для интеграции OAuth2 в ваш проект.
 - [django-two-factor-auth](https://github.com/jazzband/django-two-factor-auth/) - Двухфакторная аутентификация для Django.
 - [django-rest-knox](https://github.com/James1345/django-rest-knox/) - Аутентификация основанная на `TokenAuthentication`, решающая некоторые проблемы стандратной реализации.
 - [social-auth-core](https://github.com/python-social-auth/social-core) - Python Social Auth - это простой в настройке механизм аутентификации/регистрации через соцсети с поддержкой нескольких фреймворков и провайдеров аутентификации.
-  
+
 ### Models
+
 - [django-solo](https://github.com/lazybird/django-solo/) - Реализация `singleton` паттерна для моделей.
 - [django-model-utils](https://github.com/jazzband/django-model-utils/) - Миксины и утилиты для работы с моделями (различные поля, модели, менеджеры).
 - [django-autoslug](https://github.com/justinmayer/django-autoslug/) - Автоматически заполняет слаг.
@@ -40,6 +43,7 @@
 - [django-braces](https://django-braces.readthedocs.io/en/latest/) - Набор миксинов для Django-моделей.
 
 ### Rest API
+
 - [django-rest-framework](https://github.com/encode/django-rest-framework/) - Мощный и гибкий набор инструментов для создания веб-API.
 - [django-cors-headers](https://github.com/adamchainz/django-cors-headers) - Позволяет настраивать заголовки CORS для Django приложений.
 - [django-channels](https://github.com/django/channels/) - Протокол WebSockets для Django, позволяющий в режиме реального времени взаимодействовать с клиентами.
@@ -48,26 +52,31 @@
 - [drf-yasg](https://github.com/axnsan12/drf-yasg) - Автоматический генерация `Swagger/OpenAPI 2` спецификации.
 
 ### WYSIWYG
+
 - [django-ckeditor](https://github.com/django-ckeditor/django-ckeditor/) - CKEditor для Django с возможностью загрузки и предпросмотра изображений.
 - [django-quill-editor](https://github.com/LeeHanYeong/django-quill-editor/) - Quill.js интеграция в Django Admin и Django Forms.
 - [django-editorjs-fields](https://github.com/2ik/django-editorjs-fields/) - Editor.js интеграция в Django Admin и Django Forms.
 - [django-tinymce](https://github.com/jazzband/django-tinymce/) - TinyMCE интеграция.
 
 ### Utils
+
 - [django-debug-toolbar](https://github.com/jazzband/django-debug-toolbar/) - Набор панелей, которые отображают различную отладочную информацию о текущем запросе/ответе.
 - [django-silk](https://github.com/jazzband/django-silk/) - Профилировщик запросов.
 - [django-extensions](https://github.com/django-extensions/django-extensions/) - Набор различных команд, утилит, валидаторов и расширений для Django.
 - [django-cleanup](https://github.com/un1t/django-cleanup) - Автоматически удаляет файлы `FileField`, `ImageField` и подклассов.
+- [imgproxykit](https://github.com/kondratevdev/imgproxykit) - Типизированная библиотека для генерации URL изображений через `imgproxy` с поддержкой подписи URL, интеграцией с Django и Django REST Framework.
 
 ### Observability
+
 - [django-prometheus](https://github.com/korfuri/django-prometheus) - Блиотека для отображения метрик мониторинга, относящихся к внутренним компонентам Django, чтобы их можно было отслеживать с помощью `Prometheus`.
 
-
 ### Другие библиотеки
+
 > В процессе редактирования.
+
 - [responses](https://pypi.org/project/responses/) - Утилита для моков ответов `requests`.
 - [django-celery-email](https://pypi.org/project/django-celery-email/) - Асинхронный почтовый бэкенд Django для использования с Сelery
-- [dramatiq](https://dramatiq.io/) - Аналог Celery.                                                                                                                      
+- [dramatiq](https://dramatiq.io/) - Аналог Celery.
 - [graphene-django](https://github.com/graphql-python/graphene-django) - Интеграция GraphQL.
 - [django-embed-video](https://django-embed-video.readthedocs.io/) - Django-приложение для удобного встраивания видео с YouTube и Vimeo и музыки из SoundCloud (можно писать свои бекенды, например, для ВК).
 - [django-notifications](https://github.com/django-notifications/django-notifications) - Работа с уведомлениями.
